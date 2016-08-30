@@ -1,0 +1,387 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Parrent Div */
+
+.ex-content {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+}
+
+/* Navigation */
+
+.nav-bar{
+	margin: 0 auto;
+	padding: 0;
+	background-color: none;
+	max-width: 960px;
+	height: 50px;
+}
+
+.nav-logo {
+	margin-top: 7px;
+	width: 165px;
+	height: 35px;
+	background-color: #1982C8;
+	position: relative;
+	float: left;
+	clear: right;
+	margin-left: 45px;
+	border-radius: 3px;
+}
+
+.nav-logo img {
+	margin-left: 2px;
+}
+
+a.nav-bar-link {
+	width: auto;
+	margin: 0 auto;
+	margin-top: 8px;
+	padding: 8px 5px 10px 5px;
+	display: block;
+	background-color: none;
+	color: #8F8F91;
+	text-decoration: none;
+}
+
+a.nav-bar-link:hover {
+	border-radius: 5px;
+	background-color: #11ABB0;
+	color: #fff;
+	-webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+ul.nav-bar-items {
+	margin: 0 auto;
+	float: right;
+	margin-right: 30px;
+}
+
+li {
+	margin-top: 1px;
+	display: inline-block;
+	margin-right: 13px;
+	font-size: 13px;
+}
+
+/* Header */
+
+.header {
+	margin: 0 auto;
+	padding: 0;
+	height: 400px;
+	border-radius: 5px 5px 0 0;
+	background-image: url(../img/hdlogo/2.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	display: block;
+}
+
+.header h1 {
+	margin: 0;
+	padding-top: 110px;
+	text-align: center;
+	position: relative;
+	display: block;
+	font-size: 60px;
+	color: #fff;
+}
+
+.header h2 {
+	margin: 0;
+	padding-top: 15px;
+	text-align: center;
+	position: relative;
+	display: block;
+	font-size: 20px;
+	font-style: italic;
+	color: #fff;
+}
+
+/* Content */
+
+.content {
+	margin: 0 auto;
+	margin-top: 5px;
+	height: auto!important;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+
+}
+
+/* Team Info */
+
+.inf-forms {
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 100%;
+	height: auto!important;
+	padding: 0;
+	overflow: hidden;
+	background-color: #11ABB0;
+	text-align: center;
+}
+
+ .inf-forms h1 {
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #fff;
+}
+
+
+
+.inf-forms .inf-form-single {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: auto!important;
+	background-color: none;
+	float: left;
+	margin-left: 37px;
+	margin-bottom: 35px;
+	/*border: 0.1px solid black;*/
+}
+
+.inf-form-single h3 {
+	margin: 0;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.inf-form-single img {
+	margin: 0;
+	padding-top: 10px;
+	border-radius: 50%;
+	-webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.inf-form-single img:hover {
+	-webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+.team-info p {
+	font-size: 14px;
+	font-style: italic;
+	color: #fff;
+}
+
+/* Services */
+
+.services {
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 0;
+	background-color: #fff; /*#EFEFEF*/
+	width: 100%;
+	height: auto!important;
+	overflow: hidden;
+	border: 1px solid #11ABB0;
+	box-sizing: border-box; 
+}
+
+.services h1 {
+	margin: 0;
+	padding-top: 25px;
+	color: #11ABB0;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+/* Service Box */
+
+.service-box {
+	margin: 0 auto;
+	width: 98%;
+	height: auto!important;
+	text-align: center;
+}
+
+.service-box-items {
+	margin: 0 auto;
+	width: 27%;
+	height: auto!important;
+	text-align: justify;
+	float: left;
+	padding-left: 45px;
+	padding-bottom: 50px;
+}
+
+.service-box-items .service-box-name {
+	margin: 0 auto;
+	padding-top: 0px;
+	font-size: 20px;
+	color: #11ABB0;
+}
+
+.service-box-items p {
+	font-size: 15px;
+	font-family: 'Open-Sans', sans-serif;
+	font-style: italic;
+}
+
+.service-box-items span {
+	margin: 0 auto;
+	margin-left: 5px;
+	font-size: 20px;
+	color: #11ABB0;
+}
+
+/* Prices */ 
+
+.price-box {
+	width: 100%;
+	height: auto!important;
+	margin: 5px auto;
+	padding: 0;
+	background-color: #11ABB0;
+	color: #fff;
+	overflow: hidden;
+}
+
+.price-box h1 {
+	margin: 25px auto;
+	text-align: center;
+}
+
+.price-content-box {
+	margin: 0 auto;
+	width: 96%;
+	height: auto!important;
+	overflow: hidden;
+}
+
+.price-content-box h2 {
+	padding: 0 0 10px 0;
+	color: #11ABB0;
+	border-bottom: 4px solid #11ABB0;
+}
+
+.price-content {
+	width: 300px;
+	height: auto!important;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	float: left;
+	background-color: #fff;
+	color: #000;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid #11ABB0;
+	box-sizing: border-box; 
+}
+
+i.fa {
+	padding-right: 10px;
+	text-align: left;
+}
+
+p.price-content-set-p {
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+a.price-content-set-a {
+	text-decoration: none;
+	border: 2px solid #11ABB0;
+	color: #11ABB0;
+	padding: 5px 25px;
+	font-size: 20px;
+	height: auto!important;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+a.price-content-set-a:hover {
+	background-color: #11ABB0;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+
+/* Reviews */
+
+.reviews-box {
+	width: 100%;
+	margin: 5px auto;
+	padding: 0;
+	border: 1px solid #11ABB0;
+	box-sizing: border-box;
+	background-color: #fff;
+	color: #11ABB0;
+	overflow: hidden;
+}
+
+.reviews-box h1 {
+	margin: 25px auto;
+	text-align: center;
+}
+
+.reviews-content-box {
+	width: 98%;
+	margin-left: 25px;
+	background-color: #fff;
+
+}
+
+.reviews-content {
+	margin: 0 10px;
+	padding: 0;
+	float: left;
+	clear: right;
+	margin-bottom: 30px;
+}
+
+.reviews-content-img {
+	margin: 0 0 0 20px;
+	padding: 0;
+	width: 100px;
+}
+
+.reviews-content-img img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.reviews-content-text {
+	padding: 0;
+	padding-left: 15px;
+	width: 300px;
+	height: auto;
+	max-height: 140px;
+	background-color: #EFEFEF;
+	overflow: hidden;
+}
